@@ -3,7 +3,7 @@
 // script to create sqlite db 
 
 // file of csv to read in
-$file = "/home/valdeslab/Documents/php_scripts/CindysListSupllementals/all_out.csv";
+$file = "/home/valdeslab/Documents/php_scripts/CindysListSupplementals/all_out.csv";
 
 echo "Doing the work\n";
 
@@ -29,7 +29,7 @@ upc TEXT,
 selection INTEGER);
 EOF;
 
-// create the table
+// Create the table
 $ret = $db -> exec($products_table);
 if (!$ret) {
 	echo $db -> lastErrorMsg();
@@ -37,6 +37,7 @@ if (!$ret) {
 	echo "product table created\n";
 }
 
+// repeat for lists and created_lists
 $created_lists_table =<<< EOF
 CREATE TABLE created_lists
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
@@ -68,7 +69,31 @@ if (!$ret) {
 	echo "lists table created\n";
 }
 
-// insert data
+// Create metadata table
+$metadata_table =<<<EOF
+CREATE TABLE android_metadata (locale TEXT DEFAULT 'en_US');
+EOF;
+
+$ret = $db -> exec($metadata_table);
+if (!$ret) {
+	echo $db -> lastErrorMsg();
+} else {
+	echo "metadata table created\n";
+}
+
+// Insert metadata
+$metadata =<<<EOF
+INSERT INTO "android_metadata" VALUES ('en_US');
+EOF;
+$ret = $db -> exec($metadata);
+if (!$ret) {
+	echo $db -> lastErrorMsg();
+} else {
+	echo "metadata inserted\n";
+}
+
+
+// Insert product data
 
 // open file to read
 $handle = fopen($file , "r");

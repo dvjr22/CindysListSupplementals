@@ -43,7 +43,7 @@ CREATE TABLE created_lists
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 list_name TEXT,
 date TEXT,
-items INTEGER
+items ,
 cost REAL);
 EOF;
 
@@ -57,8 +57,8 @@ if (!$ret) {
 $list_table =<<<EOF
 CREATE TABLE lists
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-list_name TEXT
-product TEXT
+list_name TEXT,
+product TEXT,
 qty INTEGER);
 EOF;
 

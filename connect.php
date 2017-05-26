@@ -103,7 +103,7 @@ while(($data = fgetcsv($handle, 1000, ",")) != FALSE){
 
 // place data in sql statement to be inserted
 $insert_statement =<<<EOF
-INSERT INTO products (category, product, price, upc, selection) VALUES ('$data[0]', '$data[1]', $data[2], '$data[4]', $data[5]);
+INSERT INTO products (category, product, price, pic_id, upc, selection) VALUES ('$data[0]', '$data[1]', $data[2], $data[3], '$data[4]', $data[5]);
 EOF;
 	// execute insert
 	$ret = $db -> exec($insert_statement);

@@ -26,7 +26,7 @@ product TEXT,
 price REAL,
 pic_id BLOB,
 upc TEXT,
-selection INTEGER);
+selections INTEGER);
 EOF;
 
 // Create the table
@@ -55,7 +55,7 @@ if (!$ret) {
 }
 
 $list_table =<<<EOF
-CREATE TABLE list
+CREATE TABLE lists
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 list_name TEXT
 product TEXT
@@ -99,11 +99,11 @@ if (!$ret) {
 $handle = fopen($file , "r");
 
 // go over each row
-while(($data = fgetcsv($handle, 1000, ",")) != FALSE){
+while (($data = fgetcsv($handle, 1000, ",")) != FALSE) {
 
 // place data in sql statement to be inserted
 $insert_statement =<<<EOF
-INSERT INTO products (category, product, price, pic_id, upc, selection) VALUES ('$data[0]', '$data[1]', $data[2], $data[3], '$data[4]', $data[5]);
+INSERT INTO products (category, product, price, pic_id, upc, selections) VALUES ('$data[0]', '$data[1]', $data[2], $data[3], '$data[4]', $data[5]);
 EOF;
 	// execute insert
 	$ret = $db -> exec($insert_statement);

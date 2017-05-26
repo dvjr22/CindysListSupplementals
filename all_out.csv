@@ -1,0 +1,123 @@
+Fruits,Apples,1.99,,123456,0
+Fruits,Bananas,1.99,,123457,0
+Fruits,Oranges,1.99,,123458,0
+Fruits,Berries,1.99,,123459,0
+Fruits,Grapes,1.99,,123460,0
+Fruits,Melons,1.99,,123461,0
+Vegetables,Broccoli,1.99,,123462,0
+Vegetables,Carrots,1.99,,123463,0
+Vegetables,Cucumbers,1.99,,123464,0
+Vegetables,Garlic,1.99,,123465,0
+Vegetables,Lettuce,1.99,,123466,0
+Vegetables,Mushrooms,1.99,,123467,0
+Vegetables,Onions,1.99,,123468,0
+Vegetables,Peppers,1.99,,123469,0
+Vegetables,Potatoes,1.99,,123470,0
+Vegetables,Tomatoes,1.99,,123471,0
+Vegetables,Zucchini,1.99,,123472,0
+Canned Goods,Beans,1.99,,123473,0
+Canned Goods,Fruit,1.99,,123474,0
+Canned Goods,Soup,1.99,,123475,0
+Canned Goods,Tomato Sauce,1.99,,123476,0
+Canned Goods,Tuna Fish,1.99,,123477,0
+Canned Goods,Vegetables,1.99,,123478,0
+Frozen Foods,Meals,1.99,,123479,0
+Frozen Foods,Pizza,1.99,,123480,0
+Frozen Foods,Potatoes,1.99,,123481,0
+Frozen Foods,Vegetables,1.99,,123482,0
+Frozen Foods,Waffles,1.99,,123483,0
+Frozen Foods,Ice Cream,1.99,,123484,0
+Meat & Fish,Beef,1.99,,123485,0
+Meat & Fish,Poultry,1.99,,123486,0
+Meat & Fish,Pork,1.99,,123487,0
+Meat & Fish,Fish,1.99,,123488,0
+Meat & Fish,Bacon,1.99,,123489,0
+Meat & Fish,Sausage,1.99,,123490,0
+Deli,Cold Cuts,1.99,,123491,0
+Deli,Cheese,1.99,,123492,0
+Deli,Salad,1.99,,123493,0
+Spices,Salt,1.99,,123494,0
+Spices,Pepper ,1.99,,123495,0
+Condiments,Peanut Butter,1.99,,123496,0
+Condiments,Jelly,1.99,,123497,0
+Condiments,Honey,1.99,,123498,0
+Condiments,Mayonnaise,1.99,,123499,0
+Condiments,Mustard,1.99,,123500,0
+Condiments,Ketchup,1.99,,123501,0
+Condiments,Pickles,1.99,,123502,0
+Sauces & Oils,BBQ Sauce,1.99,,123503,0
+Sauces & Oils,Oil,1.99,,123504,0
+Sauces & Oils,Vinegar,1.99,,123505,0
+Sauces & Oils,Salad Dressing,1.99,,123506,0
+Sauces & Oils,Soy Sauce,1.99,,123507,0
+Sauces & Oils,Spaghetti Sauce,1.99,,123508,0
+Sauces & Oils,Maple Syrup,1.99,,123509,0
+Vegetarian,Tufo,1.99,,123510,0
+Vegetarian,Hummus,1.99,,123511,0
+Vegetarian,Soy Milk,1.99,,123512,0
+Snacks,Pretzels,1.99,,123513,0
+Snacks,Cookies,1.99,,123514,0
+Snacks,Chips,1.99,,123515,0
+Snacks,Dip/Salsa,1.99,,123516,0
+Snacks,Crackers,1.99,,123517,0
+Snacks,Candy,1.99,,123518,0
+Snacks,Nuts,1.99,,123519,0
+Snacks,Popcorn,1.99,,123520,0
+Snacks,Raisins,1.99,,123521,0
+Snacks,Snack Bars,1.99,,123522,0
+Breads,Sandwich,1.99,,123523,0
+Breads,Fresh Loaf,1.99,,123524,0
+Breads,Bagels,1.99,,123525,0
+Breads,Muffins,1.99,,123526,0
+Breads,Pitas,1.99,,123527,0
+Breads,Tortillas,1.99,,123528,0
+Beverages,Water,1.99,,123529,0
+Beverages,Juice,1.99,,123530,0
+Beverages,Soda,1.99,,123531,0
+Beverages,Coffee,1.99,,123532,0
+Beverages,Tea,1.99,,123533,0
+Dairy,Milk,1.99,,123534,0
+Dairy,Butter,1.99,,123535,0
+Dairy,Eggs,1.99,,123536,0
+Dairy,Cheese,1.99,,123537,0
+Dairy,Cream Cheese,1.99,,123538,0
+Dairy,Yogurt,1.99,,123539,0
+Pasta & Rice,Spaghetti,1.99,,123540,0
+Pasta & Rice,Rice,1.99,,123541,0
+Baking,Sugar,1.99,,123542,0
+Baking,Flour,1.99,,123543,0
+Baking,Pancake Mix,1.99,,123544,0
+Baking,Vanilla,1.99,,123545,0
+Cereal,Hot Cereal,1.99,,123546,0
+Cereal,Cold Cereal,1.99,,123547,0
+Cereal,Granola,1.99,,123548,0
+Toiletries,Soap,1.99,,123549,0
+Toiletries,Shampoo,1.99,,123550,0
+Toiletries,Conditioner,1.99,,123551,0
+Toiletries,Razors,1.99,,123552,0
+Toiletries,Shaving Cream,1.99,,123553,0
+Toiletries,Deodorant,1.99,,123554,0
+Toiletries,Lotion,1.99,,123555,0
+Toiletries,Toothpaste,1.99,,123556,0
+Toiletries,Floss,1.99,,123557,0
+Toiletries,Pain Reliever,1.99,,123558,0
+Pet Items,Dog Food,1.99,,123559,0
+Pet Items,Cat Food,1.99,,123560,0
+Pet Items,Cat Litter,1.99,,123561,0
+Paper & Wrap,Toilet Paper,1.99,,123562,0
+Paper & Wrap,Paper Towels,1.99,,123563,0
+Paper & Wrap,Tissues,1.99,,123564,0
+Paper & Wrap,Aluminum Foil,1.99,,123565,0
+Paper & Wrap,Plastic Wrap,1.99,,123566,0
+Paper & Wrap,Plastic Baggies,1.99,,123567,0
+Household,Garbage Bags,1.99,,123568,0
+Household,Laundry Detergent,1.99,,123569,0
+Household,Laundry Softener,1.99,,123570,0
+Household,Bleach,1.99,,123571,0
+Household,Dishwashing Soap,1.99,,123572,0
+Household,Hand Soap,1.99,,123573,0
+Household,Household Cleaner,1.99,,123574,0
+Household,Glass Cleaner,1.99,,123575,0
+Household,Sponges,1.99,,123576,0
+Household,Batteries,1.99,,123577,0
+Household,Light Bulbs,1.99,,123578,0

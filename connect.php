@@ -43,7 +43,7 @@ CREATE TABLE created_lists
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 list_name TEXT,
 date TEXT,
-items ,
+items INTEGER,
 cost REAL);
 EOF;
 

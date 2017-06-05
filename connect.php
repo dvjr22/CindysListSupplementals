@@ -69,6 +69,21 @@ if (!$ret) {
 	echo "lists table created\n";
 }
 
+$recipes_table =<<<EOF
+CREATE TABLE recipes
+(_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+recipe_name TEXT,
+product TEXT,
+measurement REAL);
+EOF;
+
+$ret = $db -> exec($recipes_table);
+if (!$ret) {
+	echo $db -> lastErrorMsg();
+} else {
+	echo "recipes table created\n";
+}
+
 // Create metadata table
 $metadata_table =<<<EOF
 CREATE TABLE android_metadata (locale TEXT DEFAULT 'en_US');

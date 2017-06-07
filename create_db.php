@@ -95,7 +95,8 @@ CREATE TABLE recipes
 (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 recipe_name TEXT,
 product TEXT,
-measurement REAL);
+measurement REAL,
+unit TEXT);
 EOF;
 
 $ret = $db -> exec($recipes_table);

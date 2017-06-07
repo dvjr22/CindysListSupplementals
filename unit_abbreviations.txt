@@ -1,0 +1,11 @@
+tablespoon (tbsp) 
+cup
+fluid ounces (fl oz) 
+pint (pt) 
+quart (qt) 
+gallon (gal)
+ounces (oz) 
+1 pound (lb)
+
+
+

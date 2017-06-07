@@ -163,7 +163,7 @@ while (($data = fgetcsv($file, 1000, ",")) != FALSE) {
 
 // place data in sql statement to be inserted
 $insert_statement =<<<EOF
-INSERT INTO recipes (recipe_name, product, measurement) VALUES ('$data[0]', '$data[1]', $data[2]);
+INSERT INTO recipes (recipe_name, product, measurement, unit) VALUES ('$data[0]', '$data[1]', $data[2], '$data[3]');
 EOF;
 	// execute insert
 	$ret = $db -> exec($insert_statement);
